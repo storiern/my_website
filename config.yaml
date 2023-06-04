@@ -1,0 +1,118 @@
+baseURL: https://oris-portfolio-website.netlify.app/
+languageCode: en-us
+title: Portfolio website for Ori Stern
+theme: forty
+googleAnalytics: ''
+disqusShortname: ''
+params:
+  banner:
+    buttonText: Get Started
+    subtitle: |-#
+      A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
+      AND RELEASED UNDER THE CREATIVE COMMONS.
+    title: Hi, my name is Ori Stern, I am an MBA student and this is my first time building a website!
+  blog: {}
+  contact:
+    address: London SW1A 1AA
+      - city: London
+        country: United Kingdom
+        street: The Mall
+        title: Address
+    buttonClear: Clear
+    buttonSend: Send message
+    email:
+      - email: ostern.mba2024@london.edu
+        title: Email
+    enable: yes
+    phone:
+      - phone: (+44) 63948-49744
+        title: Phone
+  custom_css: []
+  custom_js: []
+  description: Your description
+  error404:
+    heading: Page couldn't be found
+    text: Please visit [this page](/)
+  favicon: favicon.ico
+  footer:
+    copyright: Just do it
+    enable: yes
+    quicklinks:
+      - alt: HTML5 UP
+        text: 'Design: '
+        url: https://www.html5up.net
+    social:
+      - icon: #
+        label: #
+        url: #
+      - icon: #
+        label: #
+        url: #
+      - icon: #
+        label: #
+        url: #
+      - icon: fa-github
+        label: GitHub
+        url: https://github.com/storiern
+      - icon: fa-linkedin
+        label: LinkedIn
+        url: https://www.linkedin.com/in/oristern/
+  image: ''
+  name: Ori
+  navigation:
+    button1:
+      - name: Get Started
+        url: blogs
+    button2:
+      - name: Log In
+        url: '#'
+    links:
+      - name: Home
+        url: '#'
+      - name: email
+        url: blogs
+      - name: GitHub
+        url: https://github.com/storiern
+      - name: Linkedin
+        url: https://www.linkedin.com/in/oristern/
+    menu: Menu
+    subtitle: By HTML5 Up
+    title: Forty
+  tiles:
+    enable: yes
+    showcase:
+      - image: pic06.jpg
+        subtitle: MBA student
+        title: Ori S
+        url: C:\Users\orist\Desktop\dsb2023\website\my_website\themes\forty\exampleSite\content\blogs\blog1.md
+      - image: pic02.jpg
+        subtitle: calm
+        title: Sky
+        url: blogs/tempus
+      - image: pic03.jpg
+        subtitle: Lorem Etiam Nullam
+        title: Magna
+        url: blogs/magna
+      - image: pic04.jpg
+        subtitle: Nisl Sed Aliquam
+        title: Ipsum
+        url: blogs/ipsum
+      - image: pic05.jpg
+        subtitle: Ipsum Dolor Sit Amet
+        title: Consequat
+        url: blogs/ipsum
+      - image: pic01.jpg
+        subtitle: Feugiat Amet Tempus
+        title: Etiam
+        url: blogs/ipsum
+  two:
+    buttonText: Get Started
+    enable: yes
+    subtitle: "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
+      \r\n    Mauris aliquet magna magna sed nunc rhoncus pharetra. \r\n    Pellentesque
+      condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia
+      pellentesque lorem ipsum dolor. \r\n    Nullam et orci eu lorem consequat tincidunt.
+      Vivamus et sagittis libero.\r\n    Mauris aliquet magna magna sed nunc rhoncus
+      amet pharetra et feugiat tempus."
+    title: Massa libero
+    url: blogs
