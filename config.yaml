@@ -7,14 +7,14 @@ disqusShortname: ''
 params:
   banner:
     buttonText: Get Started
-    subtitle: |-#
+    subtitle: |-
       A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
       AND RELEASED UNDER THE CREATIVE COMMONS.
-    title: Hi, my name is Ori Stern, I am an MBA student and this is my first time building a website!
+    title: Hi, my name is Ori Stern, the Great
   blog: {}
   contact:
-    address: London SW1A 1AA
-      - city: London
+    address: 
+      - city: London SW1A 1AA
         country: United Kingdom
         street: The Mall
         title: Address
@@ -81,30 +81,30 @@ params:
   tiles:
     enable: yes
     showcase:
-      - image: pic06.jpg
+      - image: lbs.jpg
         subtitle: MBA student
         title: Ori S
-        url: C:\Users\orist\Desktop\dsb2023\website\my_website\themes\forty\exampleSite\content\blogs\blog1.md
+        url: blogs/risk_return
       - image: pic02.jpg
         subtitle: calm
         title: Sky
-        url: blogs/tempus
+        url: static\img
       - image: pic03.jpg
         subtitle: Lorem Etiam Nullam
         title: Magna
-        url: blogs/magna
+        url: static\img
       - image: pic04.jpg
         subtitle: Nisl Sed Aliquam
         title: Ipsum
-        url: blogs/ipsum
+        url: static\img
       - image: pic05.jpg
         subtitle: Ipsum Dolor Sit Amet
         title: Consequat
-        url: blogs/ipsum
+        url: static\img
       - image: pic01.jpg
         subtitle: Feugiat Amet Tempus
         title: Etiam
-        url: blogs/ipsum
+        url: static\img
   two:
     buttonText: Get Started
     enable: yes
@@ -116,3 +116,8 @@ params:
       amet pharetra et feugiat tempus."
     title: Massa libero
     url: blogs
+    
+markup: 
+  goldmark: 
+    renderer: 
+      unsafe: true
